@@ -8,13 +8,23 @@ theme:
   custom_dir: overrides
   features:
     - search.suggest
+    - search.share
     - navigation.tabs
     - navigation.path
+    - navigation.instant
+    - navigation.indexes
+    - navigation.top
+  palette:
+    primary: deep purple
 plugins:
   - search
   - blog
 nav:
   - index.md
+  - 자유 커뮤니티 정신:
+    - spirit/index.md
+  - 검열 저항:
+    - censorship/index.md
   - 블로그:
     - blog/index.md
 extra: 
@@ -26,7 +36,7 @@ extra:
   consent:
     title: 자유인 확인
     description: >- 
-      당신이 동의 버튼을 클릭한 경우. 당신은 자신이 노무현 밈을 사랑한다는 것에 동의하는 것으로 간주됩니다. 또한 쿠키 사용에 동의하는 것으로 간주되며, 관리 버튼을 클릭하여 쿠키 설정을 변경할 수 있습니다.
+      당신이 동의 버튼을 클릭한 경우, 당신은 자신이 노무현 밈을 사랑한다는 것에 동의하는 것으로 간주됩니다. 또한 쿠키 사용에 동의하는 것으로 간주되며, 관리 버튼을 클릭하여 쿠키 설정을 변경할 수 있습니다.
     actions:
     - accept
     - manage
@@ -34,7 +44,12 @@ extra:
   analytics:
     provider: google
     tracking_id: G-749JF2PMC2
+markdown_extensions: 
+  - md_in_html
+  - footnotes
+  - tables
+  - attr_list
 copyright: >- 
-  <img src="./assets/by-nc-sa.svg" alt="CC License" width="60"><br>Copyright &copy; 2025 ICE(ice3353) All Rights Reserved. 모든 저작물은 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko">CC BY-NC-SA 라이선스</a>로 보호됩니다.
+  <img src="assets/by-nc-sa.svg" alt="CC BY-NC-SA" width="60"><br>Copyright &copy; 2025 ICE(ice3353) All Rights Reserved. 특별히 명시되어있지 않은 경우, 이 사이트 내의 모든 저작물은 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko">CC BY-NC-SA 라이선스</a>로 보호됩니다.
 repo_url: https://github.com/opcweb/FreeCommunityWiki
 repo_name: FreeCommunityWiki

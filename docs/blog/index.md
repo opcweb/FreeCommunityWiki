@@ -1,2 +1,2 @@
 # 자유 커뮤니티 재단 블로그
-커뮤니티에서의 자유에 관한 블로그입니다
+<image src='./assets/logo.png' width='250' hight='250'>

@@ -1,5 +1,12 @@
-# 자유 커뮤니티 위키
-<image src='./assets/logo.png' width='250' hight='250'>
+---
+title: 홈
+hide:
+    - navigation
+    - toc
+---
+<center><h1>자유 커뮤니티 위키</h1></center>
+<center><image src='./assets/logo.png' width='250' hight='250'></center>
+<center><strong>자유는 우리를 위해. 우리는 자유를 위해.</strong></center>
 ---
 > 모든 사람은 의견의 자유와 표현의 자유에 대한 권리를 가진다. 이러한 권리는 간섭없이 의견을 가질 자유와 국경에 관계없이 어떠한 매체를 통해서도 정보와 사상을 추구하고, 얻으며, 전달하는 자유를 포함한다.
 > ###### 세계 인권 선언 제 19조

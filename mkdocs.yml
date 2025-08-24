@@ -1,0 +1,38 @@
+site_name: 자유 커뮤니티 위키 
+site_url: https://opcweb.github.io/FreeCommunityWiki
+theme:
+  name: material
+  language: ko
+  logo: assets/logo.png
+  custom_dir: overrides
+  features:
+    - search.suggest
+    - navigation.tabs
+    - navigation.path
+plugins:
+  - search
+  - blog
+nav:
+  - index.md
+  - 블로그:
+    - blog/index.md
+extra: 
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/opcweb/FreeCommunityWiki
+    - icon: fontawesome/brands/kakao-talk
+      link: https://open.kakao.com/o/gxgb8LPe
+  consent:
+    title: 자유인 확인
+    description: >- 
+      당신이 동의 버튼을 클릭한 경우. 당신은 자신이 노무현 밈을 사랑한다는 것에 동의하는 것으로 간주됩니다.
+    actions:
+    - accept
+  generator: false
+  analytics:
+    provider: google
+    tracking_id: G-749JF2PMC2
+copyright: >- 
+  <img src="./assets/by-nc-sa.svg" alt="CC License" width="60"><br>Copyright &copy; 2025 ICE(ice3353) All Rights Reserved. 모든 저작물은 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko">CC BY-NC-SA 라이선스</a>로 보호됩니다.
+repo_url: https://github.com/opcweb/FreeCommunityWiki
+repo_name: FreeCommunityWiki

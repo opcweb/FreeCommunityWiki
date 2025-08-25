@@ -1,6 +1,5 @@
 ---
 date: 2025-08-24
-time: 17:00
 authors:
     - ICE
 title: 사이트 개발 시작

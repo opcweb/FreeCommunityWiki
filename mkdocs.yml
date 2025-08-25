@@ -5,6 +5,10 @@ theme:
   language: ko
   logo: assets/logo.png
   favicon: assets/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+    tag:
+      개발: fontawesome/solid/code
   custom_dir: overrides
   features:
     - search.suggest
@@ -14,11 +18,14 @@ theme:
     - navigation.instant
     - navigation.indexes
     - navigation.top
+    - content.code.copy
+    - content.code.annotate
   palette:
     primary: deep purple
 plugins:
   - search
   - blog
+  - tags
 nav:
   - index.md
   - 자유 커뮤니티 정신:
@@ -47,9 +54,18 @@ extra:
 markdown_extensions: 
   - md_in_html
   - footnotes
-  - tables
   - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 copyright: >- 
-  <img src="assets/by-nc-sa.svg" alt="CC BY-NC-SA" width="60"><br>Copyright &copy; 2025 ICE(ice3353) All Rights Reserved. 특별히 명시되어있지 않은 경우, 이 사이트 내의 모든 저작물은 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko">CC BY-NC-SA 라이선스</a>로 보호됩니다.
+  <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="CC BY-NC-SA" width="60"><br>Copyright &copy; 2025 ICE(ice3353) All Rights Reserved. 특별히 명시되어있지 않은 경우, 이 사이트 내의 모든 저작물은 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko">CC BY-NC-SA 라이선스</a>로 보호됩니다.
 repo_url: https://github.com/opcweb/FreeCommunityWiki
 repo_name: FreeCommunityWiki

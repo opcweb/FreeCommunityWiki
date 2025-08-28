@@ -3,6 +3,8 @@ title: 홈
 hide:
     - navigation
     - toc
+    - edit
+    - view
 ---
 <center><h1>자유 커뮤니티 위키</h1></center>
 <center><image src='./assets/logo.png' width='250' hight='250'></center>

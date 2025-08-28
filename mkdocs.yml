@@ -9,7 +9,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
     tag:
-      개발: fontawesome/solid/code
+      dev: fontawesome/solid/code
       edit: material/pencil
       view: material/eye
   custom_dir: overrides
@@ -53,6 +53,8 @@ extra:
       link: https://github.com/opcweb/FreeCommunityWiki
     - icon: fontawesome/brands/kakao-talk
       link: https://open.kakao.com/o/gxgb8LPe
+  tags:
+      개발: dev
   consent:
     title: 자유인 확인
     description: >- 

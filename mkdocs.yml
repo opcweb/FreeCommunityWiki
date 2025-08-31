@@ -9,6 +9,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
     tag:
+      comment: fontawesome/solid/align-justify
       dev: fontawesome/solid/code
       edit: material/pencil
       view: material/eye
@@ -44,6 +45,8 @@ nav:
   - 검열 저항:
     - censorship/index.md
     - censorship/pgp.md
+  - 대시보드:
+    - dashboard/index.md
   - 블로그:
     - blog/index.md
 
@@ -55,6 +58,7 @@ extra:
       link: https://open.kakao.com/o/gxgb8LPe
   tags:
       개발: dev
+      논평: comment
   consent:
     title: 자유인 확인
     description: >- 
@@ -81,7 +85,11 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: >- 
   <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" alt="CC BY-NC-SA" width="60"><br>Copyright &copy; 2025 <a href="https://github.com/opcweb">opcweb</a> All Rights Reserved. 특별히 명시되어있지 않은 경우, 이 사이트 내의 모든 저작물은 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko">CC BY-NC-SA 라이선스</a>로 보호됩니다.

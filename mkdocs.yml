@@ -67,9 +67,6 @@ extra:
     - accept
     - manage
   generator: false
-  analytics:
-    provider: google
-    tracking_id: G-749JF2PMC2
 
 markdown_extensions: 
   - md_in_html
